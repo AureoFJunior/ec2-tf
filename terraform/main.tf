@@ -20,7 +20,7 @@ provider "aws" {
 
 resource "aws_instance" "web" {
   ami           = var.ami
-  instance_type = var.instance_type
+  instance_type = var.instance_typeee
 
   tags = {
     Name = "HelloWorld"
